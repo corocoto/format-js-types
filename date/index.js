@@ -7,7 +7,15 @@ const DATE_OPTIONS = {
   day: 'numeric'
 };
 
+const TIME_OPTIONS = {
+  hour12: true,
+  hour: 'numeric',
+  minute: '2-digit',
+  second: '2-digit'
+};
+
 module.exports = {
   CURRENT_DATE,
-  DATE_OPTIONS
+  DATE_OPTIONS,
+  TIME_OPTIONS
 };
